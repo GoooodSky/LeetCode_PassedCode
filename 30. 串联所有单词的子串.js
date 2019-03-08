@@ -15,7 +15,6 @@ var findSubstring = function(s, arr) {
     }
     search([], arr)
     let r = []
-    console.log(result)
     result.forEach(e => {
         let str = e.join('')
         if(str == '') return
